@@ -1,0 +1,22 @@
+
+
+COMANDO DE ENTITY FRAMEWORK
+
+
+IR A TOOLS
+	NUGET PACKAGE MANAGER
+		PACKAGE MANAGER CONSOLE
+				==> SELECCIONAR EL PROYECTO DONDE QUIEREN QUE SE MAPEE LA
+					BASE DE DATOS
+						EN MI CASO EL PROYECTO ES "05 MODELS\BDTramiteDocumentarioModel"
+
+Scaffold-DbContext "Data Source=Localhost;Initial Catalog=Kopymix;Integrated Security=True;Trusted_Connection=true;Trust Server Certificate=true" Microsoft.EntityFrameworkCore.SqlServer  -DataAnnotations -Context "_dbKopymixContext" -Force
+
+
+
+
+
+
+
+
+	

@@ -1,0 +1,38 @@
+SOLO INSTALAR LAS LIBRERÍAS EN LOS PROYECTOS QUE NO COMIENCEN CON "I"
+
+LIBRERÍAS													PROYECTOS 
+
+=============================================================================
+/*ESTA LIBRERÍA ES PARA HACER USO DE LOS DTO's (TATA TRANSFER OBJECT)*/
+AutoMapper.Extensions.Microsoft.DependencyInjection			01 - todas las apis
+															02 - Negocio (no interface)
+															03 - services
+															06 - UtilAutomapper
+
+=============================================================================
+/*GENERAR/EDITAR ARCHIVOS DE EXCEL O WORD*/
+DocumentFormat.OpenXml										07 - Excel / Word
+
+
+=============================================================================
+/*IMPLEMENTAR EL JWT*/
+Microsoft.AspNetCore.Authentication.JwtBearer				01 - APIS
+System.IdentityModel.Tokens.Jwt								01 - APIS
+
+
+==============================================================================
+/*MAPEAR / EXTRAER INFORMACIÓN DE LA BASE DE DATOS*/
+Microsoft.EntityFrameworkCore								01 04 05
+Microsoft.EntityFrameworkCore.Abstractions					01 04 05
+Microsoft.EntityFrameworkCore.Design						01 04 05
+Microsoft.EntityFrameworkCore.Relational					01 04 05
+Microsoft.EntityFrameworkCore.Tools							01 04 05
+.................................................			   
+/*CONSIDERAR LA LIBRERÍA PARA EL MOTOR DE BASE DE DATOS*/	   
+Microsoft.EntityFrameworkCore.SqlServer						01 04 05
+
+
+==============================================================================
+/*ME VA SERVIR PARA OBTENER INFORMACIÓN DE ARCHIVOS CON FORMATO JSON*/
+Microsoft.Extensions.Configuration.Json						01	02	03	04	05	06	07 (EXCEL, PDF)
+
